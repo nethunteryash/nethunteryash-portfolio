@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Mittal (@NethunterYASH) | Cybersecurity &amp; Network Portfolio</title>
+    <meta name="description" content="Portfolio of Yash Mittal (NethunterYASH), B.Tech CSE (Cybersecurity) student at IIIT Kalyani specializing in Computer Networking, Linux (Kali, BlackArch, Parrot, Ubuntu), Python, Bash, and PowerShell.">
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Subtle Scanline & Network Grid Background -->
+    <div class="scanlines" aria-hidden="true"></div>
+    <div class="grid-background" aria-hidden="true"></div>
+
+    <!-- Navigation Bar -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#hero" class="logo" aria-label="NethunterYASH Home">
+                <span class="prompt-symbol">&gt;</span> NethunterYASH<span class="blinking-cursor">_</span>
+            </a>
+            <nav id="nav-menu" aria-label="Primary Navigation">
+                <ul class="nav-links">
+                    <li><a href="#about">01. // about</a></li>
+                    <li><a href="#skills">02. // skills</a></li>
+                    <li><a href="#education">03. // education</a></li>
+                    <li><a href="#certifications">04. // certifications</a></li>
+                    <li><a href="#contact">05. // contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Home / Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-badge">
+                    <span class="status-dot"></span> NODE ONLINE // IIIT KALYANI // CSE (CYBERSECURITY)
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight-name">Yash Mittal</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="mono-prefix">&gt; </span>alias: <span class="cyan-text">@NethunterYASH</span> // Cybersecurity &amp; Networking
+                </h2>
+                <p class="hero-description">
+                    B.Tech CSE (Cybersecurity) undergraduate at <strong>IIIT Kalyani</strong> with hands-on experience in computer networking, multi-distro Linux environments (Kali, BlackArch, Parrot, Ubuntu), and scripting in Bash, PowerShell, and Python.
+                </p>
+                <div class="hero-actions">
+                    <a href="#certifications" class="btn btn-primary">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+                        View Certifications
+                    </a>
+                    <a href="https://www.linkedin.com/in/yash-mittal-b73682382/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        Message on LinkedIn
+                    </a>
+                </div>
+
+                <!-- Terminal Status Graphic -->
+                <div class="terminal-box" role="region" aria-label="Terminal Status Output">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="terminal-title">yash@nethunter-linux:~</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">┌──(yash㉿NethunterYASH)-[~]</span></p>
+                        <p><span class="prompt">└─$</span> ./whoami.sh --verbose</p>
+                        <p class="output-text">[+] Name        : Yash Mittal (B.Tech CSE - Cybersecurity @ IIIT Kalyani)</p>
+                        <p class="output-text">[+] OS Arsenal  : Kali Linux | Ubuntu | Parrot OS | BlackArch</p>
+                        <p class="output-text">[+] Scripting   : Bash | PowerShell | Python</p>
+                        <p class="success-text">[✓] Core Focus  : Computer Networking &amp; Linux Security</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">01.</span>
+                    <h2>About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I'm <strong>Yash Mittal</strong> (known across platforms as <strong>@NethunterYASH</strong>), currently pursuing my <strong>B.Tech in Computer Science and Engineering (Cybersecurity)</strong> at the <strong>Indian Institute of Information Technology (IIIT), Kalyani</strong>.
+                        </p>
+                        <p>
+                            I have hands-on experience in <strong>Computer Networking</strong>, along with command-line automation using <strong>Bash</strong> and <strong>PowerShell</strong> scripting, and programming in <strong>Python</strong>. I enjoy understanding how protocols work at the packet level and automating system tasks through clean scripts.
+                        </p>
+                        <p>
+                            I regularly work across diverse Linux distributions—including <strong>Kali Linux, Ubuntu, Parrot OS, and BlackArch</strong>—exploring security tooling, shell customization, and system administration.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <span class="mono-prefix">&gt;</span> Computer Network Fundamentals
+                            </div>
+                            <div class="highlight-item">
+                                <span class="mono-prefix">&gt;</span> Bash, PowerShell &amp; Python Scripting
+                            </div>
+                            <div class="highlight-item">
+                                <span class="mono-prefix">&gt;</span> Linux Environments (Kali, Ubuntu, Parrot, BlackArch)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card-wrapper">
+                        <div class="cyber-card">
+                            <div class="card-content">
+                                <svg class="shield-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                    <circle cx="12" cy="11" r="3"/>
+                                    <path d="M12 8v-2M12 16v-2M9 11H7M17 11h-2"/>
+                                </svg>
+                                <h3>Profile Summary</h3>
+                                <p>Focused on mastering network architecture, Linux system internals, and cross-platform security scripting.</p>
+                                <div class="card-status">
+                                    <span class="badge-tag">IIIT_KALYANI</span>
+                                    <span class="badge-tag">@NETHUNTERYASH</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Skills Section -->
+        <section id="skills" class="section alt-bg">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">02.</span>
+                    <h2>Technical Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+                <p class="section-subtitle">Core competencies in networking, scripting languages, and Linux operating systems.</p>
+                
+                <div class="skills-grid">
+                    <!-- Category 1: Networking -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                            <h3>Networking</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><span class="bullet">&gt;</span> Computer Network Fundamentals</li>
+                            <li><span class="bullet">&gt;</span> OSI &amp; TCP/IP Models</li>
+                            <li><span class="bullet">&gt;</span> IPv4/IPv6 Addressing &amp; Subnetting</li>
+                            <li><span class="bullet">&gt;</span> Network Protocols &amp; Diagnostics</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 2: Scripting & Programming -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                            <h3>Scripting &amp; Programming</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><span class="bullet">&gt;</span> Bash Scripting</li>
+                            <li><span class="bullet">&gt;</span> PowerShell</li>
+                            <li><span class="bullet">&gt;</span> Python (Programming Language)</li>
+                            <li><span class="bullet">&gt;</span> C Programming Fundamentals</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 3: Linux Operating Systems -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <h3>Linux Distributions</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><span class="bullet">&gt;</span> Kali Linux</li>
+                            <li><span class="bullet">&gt;</span> Ubuntu</li>
+                            <li><span class="bullet">&gt;</span> Parrot Security OS</li>
+                            <li><span class="bullet">&gt;</span> BlackArch Linux</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Education Qualification Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">03.</span>
+                    <h2>Educational Qualifications</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- B.Tech -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Present // Undergraduate Degree</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Technology (B.Tech) in CSE (Cybersecurity)</h3>
+                            <h4>Indian Institute of Information Technology (IIIT), Kalyani</h4>
+                            <p>Pursuing B.Tech in Computer Science and Engineering with a specialization in Cybersecurity, focusing on computer networks, operating systems, programming, and information security.</p>
+                        </div>
+                    </div>
+
+                    <!-- Class 12th -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <!-- PLACEHOLDER: Update your 12th passing year below -->
+                        <div class="timeline-date">Senior Secondary (Class XII)</div>
+                        <div class="timeline-content">
+                            <h3>Class XII (12th Standard) — Science (PCM)</h3>
+                            <!-- PLACEHOLDER: Replace with your 12th School Name & Board (e.g., CBSE / State Board) -->
+                            <h4>SARVODAYA SIKHSHAN SANSTHAN // 91.20%</h4>
+                            <!-- PLACEHOLDER: Replace with your 12th percentage/CGPA or highlights -->
+                            <p>Completed Senior Secondary Education with Physics, Chemistry, and Mathematics (PCM).</p>
+                        </div>
+                    </div>
+
+                    <!-- Class 10th -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <!-- PLACEHOLDER: Update your 10th passing year below -->
+                        <div class="timeline-date">Secondary School (Class X)</div>
+                        <div class="timeline-content">
+                            <h3>Class X (10th Standard)</h3>
+                            <!-- PLACEHOLDER: Replace with your 10th School Name & Board (e.g., CBSE / State Board) -->
+                            <h4>OXFORD PUBLIC SCHOOL // 95.67%<h4>
+                            <!-- PLACEHOLDER: Replace with your 10th percentage/CGPA or highlights -->
+                            <p>Completed Secondary School Examination with a strong foundation in Mathematics, Science, Social Studies, Hindi, English and Sanskrit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Certifications Section -->
+        <section id="certifications" class="section alt-bg">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">04.</span>
+                    <h2>Certifications</h2>
+                    <div class="section-line"></div>
+                </div>
+                <p class="section-subtitle">Verified credentials in Linux administration and computer networking.</p>
+
+                <div class="cert-grid">
+                    <!-- Certificate 1: Mastering Linux -->
+                    <div class="cert-card">
+                        <div class="cert-header-bar">
+                            <span class="proj-id">UDEMY // LINUX ADMINISTRATION</span>
+                            <span class="proj-status success">VERIFIED</span>
+                        </div>
+                        <div class="cert-body">
+                            <h3>Mastering Linux: The Complete Guide to Becoming a Linux Pro</h3>
+                            <p class="cert-instructor"><strong>Instructor:</strong> OCSALY Academy (Udemy)</p>
+                            <div class="cert-meta">
+                                <p><span class="mono-prefix">&gt;</span> <strong>Issued:</strong> June 21, 2026</p>
+                                <p><span class="mono-prefix">&gt;</span> <strong>Length:</strong> 5 total hours</p>
+                                <p><span class="mono-prefix">&gt;</span> <strong>Certificate No:</strong> <code>UC-530fa7b3-8dfb-4a16-a451-32a4a16d4d3c</code></p>
+                            </div>
+                        </div>
+                        <div class="cert-footer">
+                            <a href="https://ude.my/UC-530fa7b3-8dfb-4a16-a451-32a4a16d4d3c" target="_blank" rel="noopener noreferrer" class="cert-link">
+                                Verify Credential (ude.my) &rarr;
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 2: Computer Networks Fundamentals -->
+                    <div class="cert-card">
+                        <div class="cert-header-bar">
+                            <span class="proj-id">UDEMY // NETWORKING</span>
+                            <span class="proj-status success">VERIFIED</span>
+                        </div>
+                        <div class="cert-body">
+                            <h3>Computer Networks Fundamentals</h3>
+                            <p class="cert-instructor"><strong>Instructor:</strong> Cyber Quince (Udemy)</p>
+                            <div class="cert-meta">
+                                <p><span class="mono-prefix">&gt;</span> <strong>Issued:</strong> June 17, 2026</p>
+                                <p><span class="mono-prefix">&gt;</span> <strong>Length:</strong> 4.5 total hours</p>
+                                <p><span class="mono-prefix">&gt;</span> <strong>Certificate No:</strong> <code>UC-0810ba7d-7640-4139-a31a-48c82c5b7455</code></p>
+                            </div>
+                        </div>
+                        <div class="cert-footer">
+                            <a href="https://ude.my/UC-0810ba7d-7640-4139-a31a-48c82c5b7455" target="_blank" rel="noopener noreferrer" class="cert-link">
+                                Verify Credential (ude.my) &rarr;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">05.</span>
+                    <h2>Connect with @NethunterYASH</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Message Me on LinkedIn</h3>
+                        <p>For professional inquiries, cybersecurity discussions, or networking collaborations, please <strong>message me directly on LinkedIn</strong> or connect through my official <strong>@NethunterYASH</strong> channels below.</p>
+                        
+                        <div class="contact-details">
+                            <!-- LinkedIn -->
+                            <div class="contact-row">
+                                <svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                                <a href="https://www.linkedin.com/in/yash-mittal-b73682382/" target="_blank" rel="noopener noreferrer">Message me on LinkedIn (yash-mittal-b73682382)</a>
+                            </div>
+                            <!-- GitHub -->
+                            <div class="contact-row">
+                                <svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                                <a href="https://github.com/NethunterYASH" target="_blank" rel="noopener noreferrer">github.com/NethunterYASH</a>
+                            </div>
+                            <!-- YouTube -->
+                            <div class="contact-row">
+                                <svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+                                <a href="https://www.youtube.com/@NethunterYASH" target="_blank" rel="noopener noreferrer">youtube.com/@NethunterYASH</a>
+                            </div>
+                            <!-- Instagram -->
+                            <div class="contact-row">
+                                <svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                                <a href="https://www.instagram.com/NethunterYASH/" target="_blank" rel="noopener noreferrer">instagram.com/NethunterYASH</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <div class="linkedin-cta-box">
+                            <div class="terminal-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="terminal-title">secure_channel // linkedin</span>
+                            </div>
+                            <div class="linkedin-cta-body">
+                                <p class="mono-status"><span class="prompt">&gt;</span> PREFERRED CONTACT PROTOCOL: <strong>LINKEDIN DM</strong></p>
+                                <p class="cta-desc">
+                                    To keep communications verified and spam-free, my personal email is kept private. Click below to open my LinkedIn profile and send me a direct message.
+                                </p>
+                                <a href="https://www.linkedin.com/in/yash-mittal-b73682382/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                                    Message Me on LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 7. Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <span class="mono-prefix">&gt;</span> Yash Mittal (<strong>@NethunterYASH</strong>) // IIIT Kalyani
+            </div>
+            <div class="footer-right">
+                <span class="build-tag">STATUS: SECURE // 2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
