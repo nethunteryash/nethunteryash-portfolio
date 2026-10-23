@@ -6,3 +6,5 @@ Personal cybersecurity and computer networking portfolio of **Yash Mittal** (`@N
 - **HTML5, CSS3, Vanilla JS** (Zero external dependencies, instant load times)
 - **Cyber-Terminal Theme** with scanline overlay, grid background, and reduced-motion accessibility support
 - **Ready for Vercel** out of the box
+
+Hosted on vercel - https://nethunteryash.vercel.app/
