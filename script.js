@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-        document.querySelectorAll('.cyber-card, .skill-category, .timeline-item, .cert-card').forEach(el => {
+        document.querySelectorAll('.cyber-card, .skill-category, .timeline-item, .project-card, .cert-card').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(18px)';
             el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
