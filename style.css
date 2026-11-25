@@ -392,6 +392,19 @@ header {
     font-family: var(--font-mono);
 }
 
+.section-actions {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Hidden toggle utility for View More items */
+.is-hidden {
+    display: none !important;
+}
+
 /* About Section */
 .about-grid {
     display: grid;
@@ -613,6 +626,10 @@ header {
     transition: var(--transition);
 }
 
+.priority-card {
+    border-color: rgba(0, 240, 255, 0.4);
+}
+
 .project-card:hover,
 .cert-card:hover {
     border-color: var(--accent-green);
@@ -645,6 +662,12 @@ header {
     background-color: rgba(0, 255, 102, 0.1);
     color: var(--accent-green);
     border: 1px solid rgba(0, 255, 102, 0.3);
+}
+
+.proj-status.priority {
+    background-color: rgba(0, 240, 255, 0.12);
+    color: var(--accent-cyan);
+    border: 1px solid rgba(0, 240, 255, 0.4);
 }
 
 .project-body,
