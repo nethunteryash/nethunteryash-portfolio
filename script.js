@@ -29,7 +29,28 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 3. Scroll-Triggered Fade-In (Respecting prefers-reduced-motion)
+    // 3. "View More / Show Less" Toggle for Projects & Certifications
+    document.querySelectorAll('.toggle-more-btn').forEach(button => {
+        const targetGroup = button.getAttribute('data-target');
+        const extraItems = document.querySelectorAll(`.extra-item[data-group="${targetGroup}"]`);
+        const defaultLabel = button.textContent.trim();
+
+        if (extraItems.length === 0) {
+            button.style.display = 'none';
+            return;
+        }
+
+        button.addEventListener('click', () => {
+            const isExpanded = button.getAttribute('aria-expanded') === 'true';
+            extraItems.forEach(item => {
+                item.classList.toggle('is-hidden', isExpanded);
+            });
+            button.setAttribute('aria-expanded', String(!isExpanded));
+            button.textContent = isExpanded ? defaultLabel : '- Show Less';
+        });
+    });
+
+    // 4. Scroll-Triggered Fade-In (Respecting prefers-reduced-motion)
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     if (!prefersReducedMotion) {
@@ -43,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-        document.querySelectorAll('.cyber-card, .skill-category, .timeline-item, .project-card, .cert-card').forEach(el => {
+        document.querySelectorAll('.cyber-card, .skill-category, .timeline-item, .project-card:not(.is-hidden), .cert-card:not(.is-hidden)').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(18px)';
             el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
